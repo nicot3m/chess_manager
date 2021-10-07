@@ -1,0 +1,16 @@
+[flake8]
+
+exclude =
+    .git,
+	.gitignore,
+	.flake8,
+	readme.md,
+	requirements.txt,
+	P4_01_lien_repository_GitHub.txt,
+	database/,
+	env/,
+	flake-report/,
+
+max-line-length=119
+format=html
+htmldir=flake-report
